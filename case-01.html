@@ -1,43 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/lib/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">  
+    <title>Water Drop Animation</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
     <style>
-        div{
-            position: relative;
-            top: 50px;
-            width: 100px;
-            height: 70px;
-            background-color: purple;
-            transition-duration: 3000ms;
-            margin-bottom: 55px;
-            border-top-right-radius: 15px;
-            border-bottom-right-radius: 15px;
-           
+    section{
+      position: absolute;
+      height: fit-content;
+      top: 80px;
+      
+      margin: auto;
+    }
+    div {
+      width: 250px;
+      padding: 20px 20px;
+      color: white;
+      background: purple;
+      margin: 12px 0px;
+      font-weight: bolder;
+      font-size: 25px;
+      border-radius: 0px 10px 10px 0px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: -225px;
+      cursor: pointer;
+      transition-duration: 1s;
+    }
+    div:hover{
+      margin-left: 0;
+    }
 
 
-        }
- 
-
-        div:hover{
-            width: 300px;
-        }
-        
-    </style>
+  </style>
 </head>
 <body>
-
-    <div> <span>Manu 01</span><i class="fa-solid fa-address-book"></i></div>
-    <div><span>Manu 02</span><i class="fa-solid fa-truck-medical"></i></div>
-    <div><a href="">Manu 03</a></div>
-    <div><a href="">Manu 04</a></div>
-    <div><a href="">Manu 05</a></div>
-
-
-<script src="assets/lib/fontawesome/js/all.min.js"></script>
+  <section>
+  <div>Menu One<i class="fa-solid fa-address-book"></i></div>
+  <div>Menu Two<i class="fa-solid fa-truck-medical"></i></div>
+  <div>Menu Three<i class="fa-solid fa-ethernet"></i></div>
+  <div>Menu Four<i class="fa-solid fa-book"></i></div>
+  <div>Menu Five<i class="fa-solid fa-cart-shopping"></i></div>
+</section>
 </body>
 </html>
